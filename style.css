@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans&family=Lexend+Deca&family=Mulish&family=Outfit:wght@400;700&family=Play:wght@400;700&family=Poppins&family=Red+Hat+Display:wght@500;700;900&family=Roboto&family=Rubik:wght@400;500;700&family=Signika:wght@700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 232, 255);
+    font-family: 'Red Hat Display',sans-serif;
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 8px 30px rgba(114, 128, 167, 0.2);
+    overflow: hidden;
+}
+
+.container img.hero {
+    width: 400px;
+}
+
+.main {
+    padding: 0 50px 45px 50px;
+}
+
+.main .text {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.main .text h2 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.main .text p {
+    font-size: 15px;
+}
+
+.main .subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: rgba(114, 128, 167, 0.1);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.subscribe .plan {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe .plan .cost {
+    margin-left: 15px;
+    line-height: 6px;
+}
+
+.subscribe .plan .cost h3 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.subscribe .plan .cost p {
+    color: hsl(224, 23%, 55%);
+}
+
+.subscribe .link {
+    font-weight: bold;
+    color: rgb(56, 41, 224);
+}
+
+.subscribe .link a:hover {
+    color: rgb(98, 83, 255);
+    text-decoration: none;
+}
+
+.main .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.btn .pay a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(56, 41, 224);
+    padding: 13px 85px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(56, 41, 224, 0.25);
+}
+
+.btn .pay a:hover {
+    background-color: rgb(69, 52, 255);
+}
+
+.btn .cancel {
+    margin-top: 30px;
+}
+
+.btn .cancel a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.btn .cancel a:hover {
+    color: black;
+}
+
+footer {
+    font-size: 13px;
+}
